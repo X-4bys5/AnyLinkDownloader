@@ -1,0 +1,37 @@
+# python and editor junk
+venv/
+.venv/
+.env
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.ruff_cache/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# secrets, never push these
+*.pem
+
+# build output
+build/
+dist/
+.buildenv/
+selftest.txt
+notes.md
+shell/target/
+vendor/.cache/
+vendor/bin/manifest.json
+vendor/bin/ffmpeg.exe
+vendor/bin/ffprobe.exe
+vendor/bin/deno.exe
+vendor/bin/ald-window.exe
+
+# only for you, not part of the app
+tools/
+.github/
+ruff.toml
+ald/ui/.prettierrc
+*.patch
+*.zip

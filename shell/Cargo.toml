@@ -1,0 +1,21 @@
+[package]
+name = "ald-window"
+version = "0.1.0"
+edition = "2021"
+description = "The native window for Any Link Downloader: a small Rust program that shows the app's screen in the system's own web view (WebView2 on Windows) instead of an Edge/Chrome app window."
+license = "MIT"
+
+[dependencies]
+png = "0.18"
+
+[target.'cfg(any(windows, target_os = "macos"))'.dependencies]
+wry = "=0.57.1"
+tao = "=0.35.3"
+webbrowser = "1"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
