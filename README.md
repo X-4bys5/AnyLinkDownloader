@@ -1,9 +1,8 @@
 # Any Link Downloader
 
-[![Release](https://img.shields.io/github/v/release/X-4bys5/AnyLinkDownloader?label=release)](https://github.com/X-4bys5/AnyLinkDownloader/releases/latest)
-[![CI](https://github.com/X-4bys5/AnyLinkDownloader/actions/workflows/ci.yml/badge.svg)](https://github.com/X-4bys5/AnyLinkDownloader/actions/workflows/ci.yml)
-[![Downloads](https://img.shields.io/github/downloads/X-4bys5/AnyLinkDownloader/total)](https://github.com/X-4bys5/AnyLinkDownloader/releases)
-[![License](https://img.shields.io/github/license/X-4bys5/AnyLinkDownloader)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/X-4bys5/AnyLinkDownloader?label=release&v=2)](https://github.com/X-4bys5/AnyLinkDownloader/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/X-4bys5/AnyLinkDownloader/total?v=2)](https://github.com/X-4bys5/AnyLinkDownloader/releases)
+[![License](https://img.shields.io/github/license/X-4bys5/AnyLinkDownloader?v=2)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-windows%2010%2F11-blue)
 
 windows app for saving videos and audio from a link. paste the link, pick a quality, download. built on yt-dlp and ffmpeg, and it has a small editor (Studio) and spotify song support on top.
